@@ -1,0 +1,20 @@
+(1) Introduction:
+                    JavaScript is a high-level, interpreted programming language primarily 
+                    used for client-side web development.
+
+
+(2) Differ B/W Vav and let:
+
+                    function exampleFunction() {
+                    var x = 10;
+                    if (true) {
+                        var y = 20;
+                        let z = 30;
+                        console.log(x); // Output: 10
+                        console.log(y); // Output: 20
+                        console.log(z); // Output: 30
+                    }
+                    console.log(x); // Output: 10
+                    console.log(y); // Output: 20 (var is function-scoped)
+                    console.log(z); // Error: z is not defined (let is block-scoped)
+                    }
